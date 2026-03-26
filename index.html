@@ -4,8 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <title></title>
+    <h1>Por favor introduzca su nombre</h1>
+
+    <section>
+        <div>
+        <form id="nombre" method="post">
+              <div>
+                <label for="name">nombre</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>  
+        </div>
+    </section>
+
+    <p id="saludo"></p>
+
+    <script src="script.js"></script>
 </body>
 </html>
